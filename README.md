@@ -15,11 +15,7 @@ This project helps farmers and researchers **identify plant health issues early*
 - [📂 Project Structure](#-project-structure)  
 - [⚙️ Installation & Setup](#%EF%B8%8F-installation--setup)  
 - [📊 Dataset](#-dataset)  
-- [📷 Screenshots](#-screenshots)  
-- [🚀 Future Improvements](#-future-improvements)  
-- [🤝 Contributing](#-contributing)  
-- [👨‍💻 Author](#-author)  
-- [📜 License](#-license)  
+ 
 
 ---
 
@@ -51,3 +47,69 @@ Plant-Disease-Recognition-System/
 ├── plant_disease.json      # Disease class mappings
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+
+Got it ✅ — let’s format your **Installation & Setup** and **Dataset** sections in a professional GitHub-style Markdown.
+
+Here’s the polished version 👇
+
+---
+
+````markdown
+## ⚙️ Installation & Setup  
+
+### 1️⃣ Clone the repository  
+```bash
+git clone https://github.com/your-username/Plant-Disease-Recognition-System.git
+cd Plant-Disease-Recognition-System
+````
+
+### 2️⃣ Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+* **Windows**
+
+  ```bash
+  venv\Scripts\activate
+  ```
+* **Linux / Mac**
+
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 3️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the application
+
+```bash
+python app.py
+```
+
+Now open the app in your browser at:
+👉 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+
+---
+
+## 📊 Dataset
+
+* **Source**: [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/emmarex/plantdisease)
+* **Description**: Contains thousands of labeled leaf images across multiple crops and disease categories.
+* **Usage**: Preprocessed and used to train the CNN model for classification.
+
+```
+
+---
+
+⚡ This version uses proper headings, code blocks, and bullet points, so it looks neat and professional on GitHub.  
+
+Do you also want me to prepare a **requirements.txt** file with the key dependencies (Flask, TensorFlow, OpenCV, etc.) so setup becomes plug-and-play for anyone cloning your repo?
+```
